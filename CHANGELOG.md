@@ -1,6 +1,13 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## 1.4.0 (2020-05-19)
+
+
+### Features
+
+* initial public release ([fc5ce63](https://github.com/labor-digital/sentry-browser/commit/fc5ce63850863c3f2a368b5c496373abe6b655af))
 
 # 1.3.0 (2020-01-02)
 
