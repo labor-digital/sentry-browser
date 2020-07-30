@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.2](https://github.com/labor-digital/sentry-browser/compare/v1.4.1...v1.4.2) (2020-07-30)
+
+
+### Bug Fixes
+
+* set merge in {} (Don't crash on merge() and merge([]). Now {} is returned in these corner cases.) ([2f032bd](https://github.com/labor-digital/sentry-browser/commit/2f032bd21f2d9e264ee569df95136ff03dca624b))
+
 ### [1.4.1](https://github.com/labor-digital/sentry-browser/compare/v1.4.0...v1.4.1) (2020-07-09)
 
 ## 1.4.0 (2020-05-19)
