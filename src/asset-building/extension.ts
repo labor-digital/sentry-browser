@@ -1,7 +1,7 @@
 import {AssetBuilderEventList} from "@labor-digital/asset-building/dist/AssetBuilderEventList";
 import {CoreContext} from "@labor-digital/asset-building/dist/Core/CoreContext";
 import {WorkerContext} from "@labor-digital/asset-building/dist/Core/WorkerContext";
-import merge from "webpack-merge";
+import {merge} from "webpack-merge";
 
 export default function (context: WorkerContext | CoreContext, scope: string) {
 
