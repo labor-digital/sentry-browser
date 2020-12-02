@@ -1,42 +1,43 @@
 {
-	"name": "@labor-digital/sentry-browser",
-	"version": "1.4.2",
-	"description": "A wrapper for the sentry.io SDK with auto injected configuration",
-	"directories": {
-		"lib": "lib"
-	},
-	"bugs": {
-		"url": "https://github.com/labor-digital/sentry-browser/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+ssh://git@github.com:labor-digital/sentry-browser.git"
-	},
-	"scripts": {
-		"build": "node flushLib.js && tsc",
-		"watch": "node flushLib.js && tsc --watch"
-	},
-	"author": {
-		"name": "LABOR.digital",
-		"email": "info@labor.tools",
-		"url": "https://www.labor.digital"
-	},
-	"contributors": [
-		{
-			"name": "Martin Neundorfer",
-			"email": "code@neunerlei.eu",
-			"url": "https://www.neunerlei.eu"
-		}
-	],
-	"license": "Apache-2.0",
-	"dependencies": {
-		"@sentry/browser": "5.15.5",
-		"@sentry/webpack-plugin": "1.11.1"
-	},
-	"main": "lib/Sentry.js",
-	"peerDependencies": {},
-	"devDependencies": {
-		"@labor-digital/asset-building": "4.14.0",
-		"typescript": "3.9.2"
-	}
+    "name": "@labor-digital/sentry-browser",
+    "homepage": "https://github.com/labor-digital/sentry-browser/",
+    "bugs": {
+        "url": "https://github.com/labor-digital/sentry-browser/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com:labor-digital/sentry-browser.git"
+    },
+    "version": "1.4.2",
+    "description": "A convenience wrapper around the sentry.io browser api - Probably mostly for company internal affairs ;)",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "build": "node flushLib.js && tsc",
+        "watch": "node flushLib.js && tsc --watch"
+    },
+    "author": {
+        "name": "LABOR.digital",
+        "email": "info@labor.tools",
+        "url": "https://www.labor.digital"
+    },
+    "contributors": [
+        {
+            "name": "Martin Neundorfer",
+            "email": "code@neunerlei.eu",
+            "url": "https://www.neunerlei.eu"
+        }
+    ],
+    "license": "Apache-2.0",
+    "dependencies": {
+        "@sentry/browser": "5.28.0",
+        "@sentry/webpack-plugin": "1.14.0"
+    },
+    "main": "lib/Sentry.js",
+    "peerDependencies": {},
+    "devDependencies": {
+        "@labor-digital/asset-building": "8.0.13",
+        "typescript": "4.1.2"
+    }
 }

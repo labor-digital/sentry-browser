@@ -1,9 +1,9 @@
 # Sentry.io - Asset Building Addon
 This package is a wrapper for the sentry.io SDK. It integrates into the [asset-building](https://github.com/labor-digital/asset-building) toolbox to automagically
-inject the required DSN into your codebase. 
+inject the required DSN into your codebase.
 
 This is mostly an internal tool we use in combination with our bitbucket build-pipelines.
-However, you can also use the library without any build-pipeline (See "Without pipeline" for further details). 
+However, you can also use the library without any build-pipeline (See "Without pipeline" for further details).
 
 ## Installation
 Install this package using npm:
@@ -29,7 +29,7 @@ The injection of all required information will be handled by our build-pipeline.
 ```
 import Sentry from "@labor-digital/sentry-browser"
 try {
-    ... Your Code ... 
+    ... Your Code ...
 } catch(e){
     Sentry.captureException(e);
 }
@@ -56,9 +56,9 @@ module.exports = merge($WEBPACK_CONFIG, {
 
 ## Additional data on errors
 If you are using custom error objects, that hold additional data
-you want to provide to sentry, this package has you covered. By default, 
+you want to provide to sentry, this package has you covered. By default,
 you would have to add a beforeSend() hook to inject your data before
-sentry sends the data to the api. 
+sentry sends the data to the api.
 
 With this package you can simply add a method called getSentryExtra()
 to your error object. The method can either return a promise, or a simple
@@ -85,6 +85,14 @@ provide additional configuration for sentry or to provide the whole configuratio
 
 ### isActivated()
 Checks if the sentry logging is activated, by validating if the class was correctly initialized
+
+## Building the sources
+
+- Clone the repository
+- Navigate to the root directory (where the "package.json" lives)
+- Install the dependencies with ```npm install```
+- Run the continuous watcher for development ```npm run watch```
+- OR build the sources for production ```npm run build```
 
 ## Postcardware
 You're free to use this package, but if it makes it to your production environment we highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using.
