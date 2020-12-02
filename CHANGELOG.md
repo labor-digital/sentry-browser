@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/labor-digital/sentry-browser/compare/v1.4.2...v1.5.0) (2020-12-02)
+
+
+### Features
+
+* PSR-2 compliant code style adjustments ([d4984d0](https://github.com/labor-digital/sentry-browser/commit/d4984d0b624051e8bc727b56ed1177c0bc172961))
+
 ### [1.4.2](https://github.com/labor-digital/sentry-browser/compare/v1.4.1...v1.4.2) (2020-07-30)
 
 
