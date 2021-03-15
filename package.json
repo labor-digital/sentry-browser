@@ -8,7 +8,7 @@
         "type": "git",
         "url": "git+ssh://git@github.com:labor-digital/sentry-browser.git"
     },
-    "version": "1.5.0",
+    "version": "1.5.1",
     "description": "A convenience wrapper around the sentry.io browser api - Probably mostly for company internal affairs ;)",
     "directories": {
         "lib": "lib"
