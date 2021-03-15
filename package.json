@@ -31,13 +31,13 @@
     ],
     "license": "Apache-2.0",
     "dependencies": {
-        "@sentry/browser": "5.28.0",
-        "@sentry/webpack-plugin": "1.14.0"
+        "@sentry/browser": "6.2.2",
+        "@sentry/webpack-plugin": "1.14.2"
     },
     "main": "lib/Sentry.js",
     "peerDependencies": {},
     "devDependencies": {
-        "@labor-digital/asset-building": "8.0.13",
-        "typescript": "4.1.2"
+        "@labor-digital/asset-building": "8.1.3",
+        "typescript": "4.2.3"
     }
 }
